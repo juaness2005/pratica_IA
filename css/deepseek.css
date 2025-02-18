@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1b1c30; /* Fundo escuro */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #1b1c30;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Box shadow */
+    width: 350px;
+    text-align: center;
+    border: 1px solid #2a2b40; /* Borda mais escura que o fundo */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #2a2b40; /* Borda mais escura que o fundo */
+    border-radius: 8px;
+    background-color: #2a2b40;
+    color: #ffffff;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura */
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #4CAF50; /* Cor do botão ao focar */
+}
+
+.btn-entrar {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50; /* Cor do botão */
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-entrar:hover {
+    background-color: #45a049; /* Tom mais escuro ao passar o mouse */
+}
+
+.criar-conta {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.criar-conta a {
+    color: aquamarine; /* Cor do link */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.criar-conta a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.linksIA {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 20px;               
+    padding: 20px; 
+}
+
+
+.linksIA a {
+    text-decoration: none; 
+    color: #2e2e53;     
+    font-size: 12px;       
+}
+
+
+.linksIA a:hover {
+    color: #4CAF50; 
+    transform: scale(1.1);
+}

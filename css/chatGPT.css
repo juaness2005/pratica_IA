@@ -1,0 +1,115 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: 'Roboto', sans-serif; /* Fonte Roboto */
+    background-color: #1b1c30; /* Cor de fundo */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal do login */
+.login-container {
+    background-color: #1b1c30; /* Cor igual ao fundo */
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); /* Sombra no container */
+}
+
+/* Título do formulário */
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+/* Estilos das caixas de entrada */
+.input-container {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    background-color: #1b1c30; /* Mesma cor do fundo */
+    border: 1px solid #15161e; /* Cor um pouco mais escura que o fundo */
+    border-radius: 8px; /* Borda arredondada */
+    color: white;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #4CAF50; /* Cor verde no foco */
+    outline: none;
+}
+
+/* Estilo do botão de entrar */
+.btn-entrar {
+    background-color: #4CAF50; /* Cor verde */
+    color: white;
+    padding: 12px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 8px; /* Borda arredondada */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-entrar:hover {
+    background-color: #45a049; /* Tom mais escuro de verde */
+}
+
+/* Frase de cadastro */
+.cadastro {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.cadastro .criar-conta {
+    color: aquamarine; /* Cor aquamarine */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cadastro .criar-conta:hover {
+    text-decoration: underline;
+    color: #66c2a2; /* Tom mais claro de aquamarine */
+}
+
+
+
+
+
+.linksIA {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 20px;               
+    padding: 20px; 
+}
+
+
+.linksIA a {
+    text-decoration: none; 
+    color: #2e2e53;     
+    font-size: 12px;       
+}
+
+
+.linksIA a:hover {
+    color: #4CAF50; 
+    transform: scale(1.1);
+}
